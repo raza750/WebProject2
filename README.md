@@ -1,2 +1,2 @@
-# WebProject
-Online Diary
+#web project2
+index.html
