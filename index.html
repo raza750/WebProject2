@@ -37,8 +37,6 @@ color: white;
    border-color: transparent;
 }
 .panel_first{
-  
-  
   padding: 10px 15px;
   width: 30%;
   border-radius: 5px;
@@ -53,6 +51,27 @@ background-repeat: no-repeat;
 background-size: cover;
 }
 
+.well{
+height:100px;
+width:100%;
+background-color:#061338
+}
+#box{
+width:100px;
+position: absolute;
+top:0;
+transform:rotateZ(-45deg);
+z-index:1;
+}
+#box2{
+width:1px;
+height:1px;
+border:40px solid;
+position:absolute;
+top:0;
+border-color:red transparent transparent red;
+}
+
 .footer{
    
    bottom:0;
@@ -65,8 +84,11 @@ background-size: cover;
 @media screen and (max-width: 768px){
       .panel{
 	  width: 100%;
-	  
+	 }
+	 .navbar-nav{
+	 padding-top: 50px; 
 	}
+	.well{height: 150px;}
 }
 
 </style>
@@ -124,14 +146,14 @@ has been the industry's standard dummy text ever since the 1500.</p>
 </div>
 <!--------------------------------------------------------------------------------------------->
 <div class = "container">
-<h1><strong>OUR SERVICES</strong></h1>
+<h1><strong><span style = "color:red;">OUR</span> <span style = "color:#061338;">SERVICES</span></strong></h1>
 <div class = "row">
 <div class = "col-sm-3">
 <div class = "thumbnail" style = "width:100%; height:100%;">
 <a href = "#">
 <img src = "icon3.png" />
 <div class = "caption">
-<p style = "text-align: center">Making your trip beautiful and easier.</p>
+<p style = "text-align: center;"><strong>Making your trip beautiful and easier.</strong></p>
 </div>
 </a>
 </div></div>
@@ -140,7 +162,7 @@ has been the industry's standard dummy text ever since the 1500.</p>
 <a href = "#">
 <img src = "icon4.png" />
 <div class = "caption">
-<p style = "text-align: center">Tools to help you succeed tommorow.</p>
+<p style = "text-align: center"><strong>Tools to help you succeed tommorow.</strong></p>
 </div>
 </a>
 </div></div>
@@ -149,7 +171,7 @@ has been the industry's standard dummy text ever since the 1500.</p>
 <a href = "#">
 <img src = "icon2.png" />
 <div class = "caption">
-<p style = "text-align: center">Ideas that will blow you out the blue.</p>
+<p style = "text-align: center"><strong>Ideas that will blow you out the blue.</strong></p>
 </div>
 </a>
 </div></div>
@@ -158,7 +180,7 @@ has been the industry's standard dummy text ever since the 1500.</p>
 <a href = "#">
 <img src = "icon1.png" />
 <div class = "caption">
-<p style = "text-align: center">Navigate your path to beautiful world.</p>
+<p style = "text-align: center"><strong>Navigate your path to beautiful world.</strong></p>
 </div>
 </a>
 </div>
@@ -166,19 +188,17 @@ has been the industry's standard dummy text ever since the 1500.</p>
 </div>
 </div>
 <!--------------------------------------------------------->
-<div class = "container-fluid">
-
-<div class = "well well-lg" style = "background-color:#061338">
+<div class = "container-fluid well">
 <div class = "container">
 <div class = "row">
 <p class = "col-sm-8" style = "color: white;">We are in business for over 6 years providing amazing services to 
 client and people love them to the core. View
 our story to know more. </p>
-<button class = "col-sm-offset-2 col-sm-2 btn" style = "background-color: red;" >OUR STORY</button>
+<button class = "col-sm-offset-1 col-sm-2 btn" style = "background-color: red;" >OUR STORY</button>
 </div>
 </div>
 </div>
-</div>
+
 <!------------------------------------------------------------>
 <div class ="container-fluid" style = "background-color:#dee2e8;">
 <div class = "container" >
@@ -201,11 +221,11 @@ Management No</br>--</br>--</strong></p>
 </div>
 </div>
 </div>
-
 </div>
 <div class = "col-sm-4">
 <div class = "panel">
 <div class = "panel-header">
+<div id = "box"><strong>Popular</strong></div><div id = "box2"></div>
 <h3 style = "text-align:center;"><strong>Business</strong></h3>
 </div>
 <div class = "panel-body">
@@ -284,10 +304,10 @@ designcoon.</strong></p>
 <div class = "footer">
 <div class = "container">
 <div class = "row" style= "padding-top:50px;">
-<div class = "col-sm-9">
+<div class = "col-md-9">
 <h3 style = "color:white;">All Rights Reserved | 2016 | Design With Love By 
-<span style="color:red;">Naseem Raza</span></h3></div>
-<div class = "col-sm-3">
+<span style="color:red;">DesignCoon</span></h3></div>
+<div class = "col-md-3">
 <img src = "footer-logo.png" />
 </div>
 </div>
